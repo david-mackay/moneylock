@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 
 function FloatingPaths({ position }: { position: number }) {
     // Modified colors for crypto theme
@@ -161,23 +160,6 @@ export function MoneyLockHero({
                         p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg 
                         hover:shadow-purple-500/20 transition-shadow duration-300"
                     >
-                        <Button
-                            variant="ghost"
-                            className="rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md 
-                            bg-black/40 hover:bg-black/60 text-white transition-all duration-300 
-                            group-hover:-translate-y-0.5 border border-blue-500/30
-                            hover:shadow-md hover:shadow-purple-500/30"
-                        >
-                            <span className="opacity-90 group-hover:opacity-100 transition-opacity">
-                                Get Early Access
-                            </span>
-                            <span
-                                className="ml-3 opacity-70 group-hover:opacity-100 group-hover:translate-x-1.5 
-                                transition-all duration-300"
-                            >
-                                →
-                            </span>
-                        </Button>
                     </motion.div>
                 </motion.div>
             </div>
